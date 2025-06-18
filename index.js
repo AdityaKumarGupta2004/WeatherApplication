@@ -42,7 +42,7 @@ let city = "Delhi";
 // search functionality
 citySearch.addEventListener("submit", (e) => {
 
-  e.preventDefault();
+  e.preventDefault(); // prevent 
 
   let cityName = document.querySelector(".city_name");
   console.log(cityName.value);
